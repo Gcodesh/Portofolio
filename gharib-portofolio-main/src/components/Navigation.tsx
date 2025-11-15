@@ -37,12 +37,17 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-2xl font-bold text-gradient hover:scale-105 transition-transform"
-          >
-            GS
-          </button>
+         <button
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  className="w-12 h-12 text-2xl font-bold text-gradient hover:scale-105 transition-transform rounded-full overflow-hidden"
+>
+  <img
+    src="/images/1eabc2744135c091a66f815f469b1299.png" // 
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
+</button>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
