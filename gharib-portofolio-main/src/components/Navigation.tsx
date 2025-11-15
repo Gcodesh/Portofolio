@@ -39,8 +39,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
          <button
   onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-  className="w-12 h-12 text-2xl font-bold text-gradient hover:scale-105 transition-transform rounded-full overflow-hidden"
->
+  className="w-12 h-12 text-2xl font-bold text-gradient hover:scale-105 transition-transform rounded-full overflow-hidden">
   <img
     src="/images/1eabc2744135c091a66f815f469b1299.png" // 
     alt="Profile"
